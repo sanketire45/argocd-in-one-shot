@@ -6,7 +6,7 @@ metadata:                        # Metadata section
 spec:
   project: frontend-team        # Assigns app to the frontend-team Project
   source:
-    repoURL: https://github.com/sanketire45/argocd-in-one-shot.git  # Git repo
+    repoURL: https://github.com/sanketire45/argocd-demos.git  # Git repo
     targetRevision: main        # Branch to watch
     path: ui_approach/nginx     # Path in repo with manifests
   destination:
